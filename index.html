@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>electronics</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header"> 
+        <div class="container">
+            <nav class="main-nav">              
+              <ul class="site-menu">
+                  <li><a href="#">Новости</a></li>
+                  <li><a href="#">Доставка</a></li>
+                  <li><a href="#">Контакты</a></li>
+		  <li><a href="#">Баллы</a></li>
+              </ul>              
+            </nav>            
+        </div>
+    </header>
+
+    <main>
+        
+
+        <section class="about">
+            <div class="container columns-container">
+                <h2 class="visually-hidden">Glavnoe</h2>
+                <div class="left-column">
+                    <img src="img/semiconductor.jpg" alt="jyhtc" width="800" height="500"> 
+                </div>                
+            </div>
+        </section>
+
+        <section class="recommendations">
+            <div class="container columns-container">
+                <h2 class="visually-hidden">Главное</h2> 
+                <div class="left-column">
+                    
+                    <ul class="recommendations-list">
+                        <p>У нас товары отвечают не только хорошим качеством, но и самой приятной ценой. А так же комфортной доставкой, с которой никакая другая не конкурирует!</p>
+                                               
+                    </ul>
+                </div>                
+            </div>
+        </section>
+
+        <section class="vacation-request"> 
+            <div class="container columns-container">
+                <h2 class="visually-hidden">Заявка</h2> 
+                <div class="left-column">
+                    <p class="lead"><b>Вы можете отправить нам свой вопрос и мы свяжемся с вами! </b></p> 
+                    <p>Отправьте заявку, заполнив форму справа</p>
+                </div>
+                <div class="right-column">
+                    <form class="vacation-request-form" method="post" action="mailto:katealf@htmlacademy.ru">
+                        <p>
+                          <label for="name" class="visually-hidden">Ваше имя</label>
+                          <input id="name" name="name" type="text" placeholder="ФИО">
+                        </p>
+                        <p>
+                          <label for="phone" class="visually-hidden">Контактный телефон</label>
+                          <input id="phone" name="phone" type="tel" placeholder="Контактный телефон">
+                        </p>
+                        <p class="half-field">
+                          <label for="height" class="visually-hidden">Комментарий</label>
+                          <input id="height" name="height" type="text" placeholder="Почта">
+                        </p>
+                        
+                        <p>
+                          <label><input name="agreement" type="checkbox">Согласен(а) на обработку персональных данных</label>
+                        </p>
+                        <p>
+                          <button class="btn btn-grey" type="submit">Отправить</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+   
+    </main>
+
+    
+</body>
+
+</html>
